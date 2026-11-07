@@ -29,3 +29,8 @@ hand_landmarker.task
 # OS Generated Files
 .DS_Store
 Thumbs.db
+
+# Secrets and Environment Variables
+.env
+.env.*
+*.log
