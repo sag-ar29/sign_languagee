@@ -1,0 +1,31 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Large Datasets & Raw Images (Keep repo clean)
+data/raw/
+data/processed/
+*.pickle
+
+# Heavy Binary Models
+models/*.p
+models/*.pkl
+hand_landmarker.task
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
